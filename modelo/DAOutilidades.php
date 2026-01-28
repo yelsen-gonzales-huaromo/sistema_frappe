@@ -1,5 +1,5 @@
 <?php
-include("../modelo/conexion.php");
+include("../config/DatabaseConexion.php");
 function mostrarIngresos($fecha1, $fecha2) {
     global $conexion;
 

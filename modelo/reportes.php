@@ -31,7 +31,7 @@ function Footer()
 }
 }
  
-require ('conexion.php');
+require ('../config/DatabaseConexion.php');
 $consulta = "select c.fecha_ingresoC,c.num_comprobanteC,c.monto_ingresoC from compras c";
 $resultado = $mysqli->query($consulta);
  

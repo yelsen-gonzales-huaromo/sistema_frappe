@@ -1,6 +1,6 @@
 <?php
 require('../modelo/fpdf186/fpdf.php');
-include("../modelo/conexion.php");
+include("../config/DatabaseConexion.php");
 
 function generarPDF($fechaInicio, $fechaFin, $ingresos, $egresos) {
     $pdf = new FPDF();

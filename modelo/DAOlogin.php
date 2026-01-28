@@ -1,5 +1,5 @@
 <?php
-include '../modelo/conexion.php'; // Asegúrate de que esta ruta sea correcta
+include '../config/DatabaseConexion.php'; // Asegúrate de que esta ruta sea correcta
 
 function verificarUsuario($usuario, $psswrd)
 {

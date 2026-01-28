@@ -32,9 +32,9 @@
 
                         <div class="container__cover">
                             <div class="container__info">
-                                <h1>Bienvenidos a FRAPPE S.A.</h1>
-                                <h2>Innovando para transformar</h2>
-                                <p>Nos enorgullece ser tu aliado estratégico en soluciones innovadoras y de calidad.</p>
+                                <h1>Bienvenidos a Frappe Ice Baby</h1>
+                                <h2>Huaraz</h2>
+                                <p>No esperes tenerlo todo para disfrutar de la vida, prueba los deliciosos frappes, helados y postres.</p>
                                 
                             </div>
                             <div class="container__vector">

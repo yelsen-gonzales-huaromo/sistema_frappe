@@ -1,7 +1,7 @@
 <?php
 
 require('../modelo/fpdf186/fpdf.php');
-include("../modelo/conexion.php");
+include("../config/DatabaseConexion.php");
 
 function generarPDF($venta) {
     $pdf = new FPDF();

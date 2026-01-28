@@ -1,5 +1,5 @@
 <?php
-include("../modelo/conexion.php");
+include("../config/DatabaseConexion.php");
 
 
 function mostrarDato($dto)
