@@ -1,4 +1,4 @@
-# <p align="center">🥤 Frappe Ice Baby - Professional Management System</p>
+# <p align="center">🥤 Frappe Ice Baby - Sistema de Gestión Profesional</p>
 
 <p align="center">
   <img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white" alt="PHP" />
@@ -9,86 +9,80 @@
 </p>
 
 <p align="center">
-  <strong>Un sistema integral diseñado para elevar la gestión de negocios de repostería y bebidas frías.</strong>
+  <strong>Una solución integral diseñada para modernizar y optimizar la gestión de negocios de repostería y bebidas frías.</strong>
   <br />
-  Desarrollado específicamente para <i>Frappe Ice Baby - Huaraz</i>, optimizando cada proceso desde el insumo hasta la sonrisa del cliente.
+  Desarrollado para <i>Frappe Ice Baby - Huaraz</i>, enfocado en la eficiencia operativa y una experiencia de usuario fluida.
 </p>
 
 ---
 
-## 🌟 Visual Showcase
+## 📸 Vista Previa del Sistema
 
 <div align="center">
-  <table>
-    <tr>
-      <td width="50%">
-        <p align="center"><strong>🔐 Acceso Seguro</strong></p>
-        <img src="herramienta/img/login_frappe.png" alt="Login Screen" width="100%" style="border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.2);" />
-      </td>
-      <td width="50%">
-        <p align="center"><strong>📊 Panel de Control</strong></p>
-        <img src="herramienta/img/panel_frappe.png" alt="Main Dashboard" width="100%" style="border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.2);" />
-      </td>
-    </tr>
-  </table>
+  <img src="herramienta/img/login_frappe.png" alt="Pantalla de Login" width="85%" style="border-radius: 15px; margin-bottom: 20px; box-shadow: 0 10px 30px rgba(0,0,0,0.1);" />
+  <br />
+  <em>Interfaz de acceso minimalista y segura</em>
+  <br /><br />
+  <img src="herramienta/img/panel_frappe.png" alt="Panel de Control" width="85%" style="border-radius: 15px; margin-bottom: 20px; box-shadow: 0 10px 30px rgba(0,0,0,0.1);" />
+  <br />
+  <em>Dashboard principal con acceso rápido a todas las funciones</em>
 </div>
 
 ---
 
-## 🚀 Key Modules & Capabilities
+## 🚀 Módulos y Capacidades Clave
 
-### 💰 Core Business Logic
-- **Smart Sales Engine:** Gestión de transacciones con cálculo automático de IGV, control de vueltos y emisión de comprobantes dinámicos.
-- **Financial Control:** Seguimiento de ingresos y egresos para mantener la rentabilidad bajo control.
+### � Gestión Comercial
+- **Motor de Ventas Inteligente:** Control total de transacciones, cálculo automático de impuestos (IGV), gestión de vueltos y emisión de comprobantes.
+- **Control Financiero:** Seguimiento detallado de flujos de caja y rentabilidad del negocio.
 
-### 📦 Inventory & Operations
-- **Inventory Tracking:** Monitoreo en tiempo real de insumos y stock de productos finales.
-- **Smart Alerts:** Prevención de mermas mediante el control riguroso de fechas de vencimiento.
-- **Supplier Hub:** Directorio de proveedores integrado con historial de compras.
+### 📦 Operaciones e Inventario
+- **Control de Stock en Tiempo Real:** Seguimiento preciso de insumos y productos terminados para evitar desabastecimiento.
+- **Alertas de Seguridad:** Gestión de fechas de vencimiento para garantizar la calidad y reducir mermas.
+- **Gestión de Proveedores:** Base de datos centralizada con historial de compras y contactos.
 
-### 👥 Human Resources & Security
-- **RBAC (Role-Based Access Control):** Diferenciación clara entre Administrador, Cajero y Personal Técnico.
-- **Detailed Audit:** Trazabilidad de cada acción realizada en el sistema.
-
----
-
-## 🛠️ Tech Stack & Architecture
-
-Este proyecto implementa una arquitectura **MVC (Modelo-Vista-Controlador)** sólida para garantizar escalabilidad y mantenimiento limpio.
-
-- **Frontend Core:** Vanilla JavaScript, CSS3 con variables modernas y HTML5 Semántico.
-- **Backend Engine:** PHP 8+ enfocado en seguridad y eficiencia.
-- **Data Architecture:** MySQL con procedimientos almacenados, triggers y funciones para máxima integridad referencial.
-- **UI/UX Assets:** Font Awesome Premium icons y tipografía Google Fonts (Poppins/Outfit).
+### 👥 Recursos Humanos y Seguridad
+- **Control de Accesos (RBAC):** Niveles de permiso diferenciados para Administradores, Cajeros y Personal.
+- **Trazabilidad Total:** Registro sistemático de todas las actividades críticas realizadas en el software.
 
 ---
 
-## 📂 Project Ecosystem
+## 🛠️ Stack Tecnológico
+
+El proyecto se basa en una arquitectura **MVC (Modelo-Vista-Controlador)** que asegura un código limpio y fácil de mantener.
+
+- **Frontend:** HTML5 Semántico, CSS3 (Moderno/Responsivo) y JavaScript nativo.
+- **Backend:** PHP 8 enfocado en rendimiento y seguridad.
+- **Base de Datos:** MySQL con lógica integrada (Procedimientos almacenados, Triggers y Funciones).
+- **Diseño:** Iconografía de Font Awesome y tipografía premium de Google Fonts.
+
+---
+
+## 📂 Organización del Proyecto
 
 ```bash
 📦 sistema_frappe
- ┣ 📂 config          # Middlewares de seguridad y controladores de conexión
- ┣ 📂 controlador     # El cerebro del sistema (Lógica de negocio e interacción)
- ┣ 📂 databases       # Arquitectura SQL (Tablas, Triggers, Functions)
- ┣ 📂 imagenes        # Assets visuales y recursos de marca
- ┣ 📂 modelo          # Abstracción de datos (DAOs y Clases Entidad)
- ┣ 📂 vista           # UI Components (Interfases limpias y responsivas)
- ┣ 📄 bdfrappe.sql    # Blueprint completo de la base de datos
- ┗ 📄 index.php       # Gateway principal del sistema
+ ┣ 📂 config          # Configuración del servidor y conexión a BD
+ ┣ 📂 controlador     # Lógica de negocio y procesamiento de datos
+ ┣ 📂 databases       # Estructura SQL y scripts de migración
+ ┣ 📂 imagenes        # Recursos visuales y activos del sistema
+ ┣ 📂 modelo          # Gestión de datos y clases DAO
+ ┣ 📂 vista           # Interfaces de usuario y componentes UI
+ ┣ 📄 bdfrappe.sql    # Base de datos completa para importación
+ ┗ 📄 index.php       # Punto de entrada principal
 ```
 
 ---
 
-## ⚡ Quick Start
+## ⚡ Instalación Rápida
 
-1. **Environment:** Clona este repo dentro de tu directorio `htdocs` (XAMPP).
-2. **Auto-Install:** Navega a `http://localhost/sistema_frappe/config/Install.php`. El sistema se auto-instalará configurando la BD por ti.
-3. **Customize:** Si necesitas cambios manuales, ajusta `config/DatabaseConfig.php`.
-4. **Enjoy:** Accede a `http://localhost/sistema_frappe` y empieza a gestionar.
+1. **Entorno:** Clona el proyecto en tu carpeta `htdocs` de XAMPP.
+2. **Auto-Instalación:** Abre en tu navegador `http://localhost/sistema_frappe/config/Install.php`. El sistema configurará la base de datos automáticamente.
+3. **Acceso:** Entra a `http://localhost/sistema_frappe` y comienza a gestionar tu negocio.
 
 ---
 
 <p align="center">
-  Developed by <strong>Yelsen Gonzales Huaromo</strong><br />
+  Desarrollado por <strong>Yelsen Gonzales Huaromo</strong><br />
   Huaraz, Perú 🇵🇪
 </p>
